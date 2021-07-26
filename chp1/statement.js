@@ -24,7 +24,7 @@ function amountFor(aperfomance) {
     default:
       throw new Error(`알 수 없는 장르 : ${playFor(aperfomance).type} `);
   }
-  
+
   return result;
 }
 
